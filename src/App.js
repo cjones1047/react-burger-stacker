@@ -3,6 +3,7 @@ import './App.css';
 
 import BurgerStack from './components/BurgerStack';
 import Ingredients from './components/Ingredients';
+import Pokedex from './components/Pokedex';
 
 const ingredients = [
   {name: 'Kaiser Bun', color: 'saddlebrown'},
@@ -88,6 +89,7 @@ class App extends Component {
               <button onClick={this.handleStateReset}>Clear</button>
             </div>
           </div>
+          <Pokedex />
       </div>
     );
   }
